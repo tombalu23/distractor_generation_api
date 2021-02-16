@@ -7,8 +7,11 @@ This is a simple Flask API that returns alternative options (distractors) for an
   >!wget https://github.com/explosion/sense2vec/releases/download/v1.0.0/s2v_reddit_2015_md.tar.gz
   
   >!tar -xvf  s2v_reddit_2015_md.tar.gz
-2. Install dependencies to your python environment
+2. Install dependencies to your python environment.
   >pip install -r requirements.txt 
+
+3. Start the server.
+  >python server.py
 
 
 ## Access the endpoints from your browser in the following ways:
